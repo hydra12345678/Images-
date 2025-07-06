@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Facebook...</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    img {
+      filter: blur(8px);
+      width: 500px;
+    }
+  </style>
+  <script>
+    // Redirect after 3 seconds
+    setTimeout(function () {
+      window.location.href = "https://facebook.com";
+    }, 3000);
+  </script>
+</head>
+<body>
+  <img src="blurred-image.webp" alt="Blurred Image">
+</body>
+</html>
